@@ -1,3 +1,4 @@
+//Resolvido em sala
 package ExerciciosEstCondicional;
 
 import java.util.Scanner;

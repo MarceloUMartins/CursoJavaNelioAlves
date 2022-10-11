@@ -1,3 +1,4 @@
+//Resolvido em sala
 package ExerciciosEstRepFor;
 
 import java.util.Scanner;

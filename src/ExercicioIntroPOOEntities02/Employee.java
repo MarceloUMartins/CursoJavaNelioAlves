@@ -11,7 +11,13 @@ public class Employee {
 	}
 	
 	public void increaseSalary(double percentage) {
-		this.tax *= percentage;
+		this.grossSalary += ((percentage / 100 )* grossSalary ) ;
+	}
+	
+	public String toString() {
+		return name
+			+ ", $ "
+			+ String.format("%.2f", netSalary());
 	}
 	
 }
